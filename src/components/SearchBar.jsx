@@ -7,7 +7,7 @@ function SearchBar({
   darkMode,
   lastCity,
 }) {
-  const [city, setCity] = useState("");
+  const [city, setCity] = useState("malda");
 
   const handleSubmit = (e) => {
     e.preventDefault();

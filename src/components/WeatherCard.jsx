@@ -1,7 +1,7 @@
 function WeatherCard({ data }) {
   const { name, main, weather, wind } = data;
   return (
-    <div className="mt-6 bg-white p-6 rounded-xl shadow-lg text-center w-80">
+    <div className="mt-6 bg-white text-black p-6 rounded-xl shadow-lg text-center w-80">
       <h2 className="text-xl font-semibold">{name}</h2>
       <img
         src={`https://openweathermap.org/img/wn/${weather[0].icon}@2x.png`}
